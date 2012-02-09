@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="subsectionmanager" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Requirejs</name>
+	<description>adds requirejs amd library to the backend</description>
+	<repo type="github">https://github.com/iwyg/sym.requirejs/</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/84156/</url>
+	<types>
+		<type>other</type>
+	</types>
+	<authors>
+		<author>
+			<name github="iwyg" symphony="iwyg">Thomas Appel</name>
+			<website>http:/thomas-appel.com</website>
+		</author>
+	</authors>
+	<releases>
+		<release versoin="1.1" date="2012-02-09" min="2.2.2">
+			- added meta.xml
+		</release>
+		<release versoin="1.0" date="2012-02-08" min="2.2.2">
+			- initial release
+		</release>
+	</releases>
+</extension>

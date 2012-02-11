@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension id="sym.requirejs" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+<extension id="sym_requirejs" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Requirejs</name>
-	<description>adds requirejs amd library to the backend</description>
+	<description>adds requirejs amd library to the your Symphony backend</description>
 	<repo type="github">https://github.com/iwyg/sym.requirejs/</repo>
 	<url type="discuss">http://symphony-cms.com/discuss/thread/84156/</url>
 	<types>

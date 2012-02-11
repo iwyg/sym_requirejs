@@ -1,6 +1,6 @@
 <?php 
 	
-Class extension_requirejs extends Extension 
+Class extension_sym_requirejs extends Extension 
 {
 
 	public function about() 
@@ -28,9 +28,9 @@ Class extension_requirejs extends Extension
 
 		$reqirepath = EXTENSION . '/requirejs/assets/requirejs/require.js';
 
-		if(!is_file($path)) {
-			//throw new SymphonyErrorPage(__('Please make sure to include submodules as well. Try <code>git submodule update --init</code> from within the extensions/requirejs path'));
-		}
+		//if(!is_file($path)) {
+		//throw new SymphonyErrorPage(__('Please make sure to include submodules as well. Try <code>git submodule update --init</code> from within the extensions/requirejs path'));
+		//}
 	}
 
 	public function getSubscribedDelegates()

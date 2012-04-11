@@ -38,4 +38,4 @@ In your main.js you could do sommething like this:
 
 
 
-[1] http://requirejs.org/
+[1]: http://requirejs.org/

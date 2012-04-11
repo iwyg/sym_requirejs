@@ -14,6 +14,9 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.2" date="2012-04-11" min="2.2.2">
+			- fiexd repository link in extension.meta.xml
+		</release>
 		<release version="1.1" date="2012-02-09" min="2.2.2">
 			- added meta.xml
 		</release>

@@ -8,8 +8,8 @@ Class extension_sym_requirejs extends Extension
 		return array(
 			'name' => 'requirejs',
 			'type'	=> 'script',
-			'version' => '1',
-			'release-date' => '2012-02-02',
+			'version' => '1.2',
+			'release-date' => '2012-04-11',
 			'author' => array(
 				'name' => 'Thomas Appel',
 				'email' => 'mail@thomas-appel.com',

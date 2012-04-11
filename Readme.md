@@ -1,12 +1,12 @@
 # Requirejs for Symphony-CMS
 
 ### Abstract 
-This simply adds (Requirejs)[1] to your Symphony CMS backend. 
+This simply adds [Requirejs][1] to your Symphony CMS backend. 
 
 ### Installation
-in your smyphony root directory: `git submodule add git://github.com/iwyg/sym.requirejs extensions/requirejs --recursive`
+in your smyphony root directory: `git submodule add git://github.com/iwyg/sym_requirejs extensions/requirejs --recursive`
 
-Go to `System->Extensions`, select requirejs and choose `enable/install`
+Go to `System->Extensions`, select `require js` and choose `enable/install`
 
 ### Usage
 

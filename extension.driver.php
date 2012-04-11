@@ -53,7 +53,7 @@ Class extension_sym_requirejs extends Extension
 
 		// Append Script for publish area
 		if($callback['driver'] == 'publish') {
-			Administration::instance()->Page->addScriptToHead(URL . '/extensions/requirejs/assets/require.js', 111, false);
+			Administration::instance()->Page->addScriptToHead(URL . '/extensions/sym_requirejs/assets/require.js', 111, false);
 		}
 	}
 }

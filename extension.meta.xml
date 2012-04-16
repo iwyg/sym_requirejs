@@ -14,8 +14,11 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.3" date="2012-04-17" min="2.2.2">
+			- fixed header output error (extra line at the and of the document)
+		</release>
 		<release version="1.2" date="2012-04-11" min="2.2.2">
-			- fiexd repository link in extension.meta.xml
+			- fixed repository link in extension.meta.xml
 		</release>
 		<release version="1.1" date="2012-02-09" min="2.2.2">
 			- added meta.xml

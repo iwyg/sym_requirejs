@@ -1,15 +1,19 @@
 <?php 
-	
-Class extension_sym_requirejs extends Extension 
-{
+/**
+ * @package sym_requirejs
+ * @author thomas appel <mail@thomas-appel.com>
 
-	public function about() 
-	{
+ * Displays <a href="http://opensource.org/licenses/gpl-3.0.html">GNU Public License</a>
+ * @license http://opensource.org/licenses/gpl-3.0.html GNU Public License
+ */ 
+Class extension_sym_requirejs extends Extension {
+
+	public function about() {
 		return array(
 			'name' => 'requirejs',
 			'type'	=> 'script',
-			'version' => '1.2',
-			'release-date' => '2012-04-11',
+			'version' => '1.3',
+			'release-date' => '2012-04-17',
 			'author' => array(
 				'name' => 'Thomas Appel',
 				'email' => 'mail@thomas-appel.com',
@@ -22,8 +26,7 @@ Class extension_sym_requirejs extends Extension
 		);
 	}
 
-	public function __construct(Array $args) 
-	{
+	public function __construct(Array $args) {
 		parent::__construct($args);
 
 		$reqirepath = EXTENSION . '/requirejs/assets/requirejs/require.js';
@@ -33,8 +36,7 @@ Class extension_sym_requirejs extends Extension
 		//}
 	}
 
-	public function getSubscribedDelegates()
-	{
+	public function getSubscribedDelegates() {
 		return array(
 
 			// Subsection Manager
@@ -46,8 +48,7 @@ Class extension_sym_requirejs extends Extension
 		);
 	}
 
-	public function __appendAssets($context) 
-	{
+	public function __appendAssets($context) {
 		$callback = Symphony::Engine()->getPageCallback();
 
 
@@ -57,5 +58,3 @@ Class extension_sym_requirejs extends Extension
 		}
 	}
 }
-?>
-
